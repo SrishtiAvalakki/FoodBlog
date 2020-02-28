@@ -13,15 +13,14 @@ import { connect } from 'react-redux';
 
 
 
-const mapStateToProps = state =>{
+const mapStateToProps = state => {
     return {
-        dishes: state.dishes,
-        comments: state.comments,
-        promotions:state.promotions,
-        leaders:state.leaders
-
+      dishes: state.dishes,
+      comments: state.comments,
+      promotions: state.promotions,
+      leaders: state.leaders
     }
-}
+  }
 class Main extends Component {
 
     constructor(props) {
